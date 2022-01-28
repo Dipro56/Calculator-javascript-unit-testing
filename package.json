@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "coverageReporters": [
+      "lcov"
+    ],
+    "coverageDirectory": "./code-coverage-report/",
+    "reporters": ["default", "./node_modules/jest-html-reporters"]
+  },
+  "devDependencies": {
+    "jest": "^27.4.7",
+    "jest-html-reporters": "^3.0.5"
+  }
+}
