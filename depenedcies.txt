@@ -3,3 +3,5 @@ npm install --save-dev jest
 npm install --save-dev jest-html-reporters
 
 npm test .\test\advance.test.js
+
+npm test .\test\basic.test.js
